@@ -1,0 +1,5 @@
+/* 前台左栏「当前文档」高亮：主题只给 .tm-nav-side 的直接子项配了激活样式，文档列表嵌在 ul.tm-nav-sub 里，故补此规则 */
+.tm-nav-side ul.tm-nav-sub > li.tm-active > a {
+  background: #f5f5f5;
+  color: #525255;
+}

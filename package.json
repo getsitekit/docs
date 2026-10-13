@@ -1,0 +1,17 @@
+{
+  "name": "sitekit-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pagekit 扩展：文档（分类 + 文档，支持前台浏览）",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "devDependencies": {
+    "vue": "3.5.43",
+    "vue-loader": "17.4.2",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^5.1.4"
+  }
+}

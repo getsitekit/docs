@@ -1,0 +1,1 @@
+Vue.ready(function(){Array.prototype.forEach.call(document.querySelectorAll(".js-docs-meta"),function(e){new Vue({}).$mount(e)})});

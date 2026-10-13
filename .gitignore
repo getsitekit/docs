@@ -1,0 +1,13 @@
+# 依赖
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 注意：app/bundle/ 是构建产物，但**必须提交** ——
+# 模板（views/**）直接引用 app/bundle/*.js，用户安装后不会再跑构建。

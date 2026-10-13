@@ -1,0 +1,21 @@
+{
+    "name": "sitekit/docs",
+    "type": "pagekit-extension",
+    "version": "1.0.0",
+    "title": "Docs",
+    "description": "编写文档：包括分类和文档，并支持前端浏览。",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sitekit",
+            "homepage": "https://github.com/getsitekit"
+        }
+    ],
+    "extra": {
+        "icon": "icon.svg",
+        "scripts": "scripts.php"
+    },
+    "archive": {
+        "exclude": ["node_modules", "!/app"]
+    }
+}
